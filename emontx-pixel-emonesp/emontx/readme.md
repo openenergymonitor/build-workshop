@@ -110,11 +110,16 @@ Start with the resistors. Form a 90 degree bend in each leg of the resistor righ
 - 16 Mhz Crystal
 - Mini-USB connector
 - 3.5mm Jack plug socket into CT1
-- MCP1702 voltage regulator (3.3V)
+- MCP1702 voltage regulator (3.3V). **Orientation is important**
 - AC-AC 2.1mm Barrel jack
 - DIL socker & ATmega328p microcontroller
 - 6 x UART pin header
 
+The RF module and CT 2-3 chanel 2-3 componens are not populated since they are not needed.
+
 ![09](images/build0010.jpg)
 
-![overview](images/values.png)
+
+### Step 8: Firmware 
+
+See [firmware folder](firmware/Readme.md) for infomation about how to upload the Arduino compatiable firmware.
