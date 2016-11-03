@@ -1,6 +1,6 @@
 ## emonTx V1 Build Guide
 
-The emonTx is an energy monitoring unit based on the Arduino open-hardware microcontroller platform
+The emonTx is an energy monitoring unit based on the Arduino open-hardware microcontroller platform.
 
 - [emonTx Open-hardware design (github)](https://github.com/openenergymonitor/Hardware/tree/master/emonTxV2)
 
@@ -64,6 +64,8 @@ It's recommended you read through the whole of this guide and familiarise yourse
 
 Start with the resistors. Form a 90 degree bend in each leg of the resistor right next to the body. It's recommended that you align them all in the same direction.
 
+*Note: Unless specified component orientation does not matter*
+
 ##### Step 1 - 1 x 18R Resistor
 
 `Brown, Grey, Black, Gold, Brown.`
@@ -106,20 +108,23 @@ Start with the resistors. Form a 90 degree bend in each leg of the resistor righ
 
 #### Step 7 - Everything else!
 
-- 3 x 10uF electrolitic capacitors. **These must be inserted into the PCB holes the correct way round**. The PCB is marked with a + symbol to indicate the positive lead. The capacitors are marked with a white stripe and a short leg to indicate the negative lead and a longer leg to indicate the positive lead.
+*Note: Unless specified component orientation does not matter*
+
+- 3 x 10uF electrolitic capacitors. **Orientation is important:** The PCB is marked with a (+) symbol to indicate the positive lead. The capacitors are marked with a white stripe and a short leg to indicate the negative lead and a longer leg to indicate the positive lead.
+- Green LED:  **Orientation is important: long leg is positive (+)**
 - 16 Mhz Crystal
 - Mini-USB connector
 - 3.5mm Jack plug socket into CT1
-- MCP1702 voltage regulator (3.3V). **Orientation is important**
+- MCP1702 voltage regulator (3.3V). **Orientation is important: see PCB outline**
 - AC-AC 2.1mm Barrel jack
 - DIL socker & ATmega328p microcontroller
 - 6 x UART pin header
 
-The RF module and CT 2-3 chanel 2-3 componens are not populated since they are not needed.
+The RF module and CT 2-3 channel 2-3 components are not populated since they are not needesd.
 
 ![09](images/build0010.jpg)
 
 
-### Step 8: Firmware 
+### Step 8: Firmware
 
 See [firmware folder](firmware/Readme.md) for infomation about how to upload the Arduino compatiable firmware.

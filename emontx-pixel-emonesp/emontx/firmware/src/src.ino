@@ -94,7 +94,7 @@ void loop()
   Serial.print(",vrms:"); Serial.print(int(emontx.Vrms*0.01));
   Serial.println();
 
-  digitalWrite(LEDpin, HIGH); delay(20); digitalWrite(LEDpin, LOW);      // flash LED
+  digitalWrite(LEDpin, HIGH); delay(100); digitalWrite(LEDpin, LOW);      // flash LED
   delay(2000);      // sleep or delay in seconds - see emontx_lib
 
 }
