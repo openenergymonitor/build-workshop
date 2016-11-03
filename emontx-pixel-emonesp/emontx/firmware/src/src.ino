@@ -68,7 +68,7 @@ void setup()
 
   pinMode(LEDpin, OUTPUT);                                              // Setup indicator LED
   digitalWrite(LEDpin, HIGH);
-  delay(500);
+    delay(500);
 }
 
 void loop()
