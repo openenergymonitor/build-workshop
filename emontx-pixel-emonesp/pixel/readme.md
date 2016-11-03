@@ -2,11 +2,11 @@
 
 **WiFi connected ESP8266**
 
-- Takes serial input string from emonTx e.g. `ct1:30,ct2:103,ct3:56,vrms:40.75`
-- Post to [Emoncms.org](https://emoncms.org) via WiFi
-- Display visual power value from `ct1` sensor
+1. Takes serial input string from emonTx e.g. `ct1:30,vrms:40.75`
+2. Display visual power value from `ct1` sensor
+3. Post to [Emoncms.org](https://emoncms.org) via WiFi
 
-### Connections
+## Connections
 
 Connect serial input from emonTx:
 
@@ -20,8 +20,22 @@ Connect serial input from emonTx:
 
 ## Firmware
 
+- Pre-loaded due to time constraints but can be loaded in the same way as emonTx firmware using PlatformIO. See `firmware/EmonESP` folder for instructions
 - Running adapted [EmonESP](github.com/openenergymonitor/EmonESP) firmware
+- Firmware upload / serial output must be done using UART pins, micro-USB is for power only
 
-## Software Setup
+## LED Visual power reading
 
-### Create account on Emoncms.org
+<photos> 
+
+## Post data online to Emoncms cloud
+
+https://emoncms.org
+
+### 1. Create account on Emoncms.org
+
+### 2. EmonESP Pixel Config
+
+![01](images/wifi.png)
+
+![01](images/wifi-connected.png)

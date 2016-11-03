@@ -125,6 +125,6 @@ The RF module and CT 2-3 channel 2-3 components are not populated since they are
 ![09](images/build0010.jpg)
 
 
-### Step 8: Firmware
+## Next > emonTx Upload Firmware
 
-See [firmware folder](firmware/Readme.md) for infomation about how to upload the Arduino compatiable firmware.
+See [emontx/firmware folder](firmware/Readme.md) for infomation about how to upload the Arduino compatiable firmware to the emonTx.
