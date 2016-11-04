@@ -41,6 +41,8 @@ Then run:
 
 *Note: this may require `sudo`*
 
+**After firmware upload we should see the green LED light up then flash every 2s.**
+
 ### View serial output
 
 PlatformIO can also be used to view the serial output from the emonTx:
@@ -74,4 +76,4 @@ See theory folder for information about how CT sensor work.
 
 ##  Next > Connecting emonTx to WiFi Pixel
 
-See 'pixel' folder. 
+See 'pixel' folder.
