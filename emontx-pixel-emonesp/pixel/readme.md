@@ -64,11 +64,11 @@ On the top right hand side you should be able to see data (ct1 & Vvrms) being re
 
 Check the box to connect to `OpenEnergyMonitor_Demo`, leave password blank, this network is open access. Click `Connect`
 
-After a few moments (10s or so) you should see a connection confirmation notice and the local IP address of your WiFi Pixel should be displayed. **Make a note of this IP address, you will need to connect**.
+After a few moments (10s or so) you should see a connection confirmation notice and the local IP address of your WiFi Pixel should be displayed (192.168.11.23 in the example below). **Make a note of this IP address, you will need to connect**.
 
 ![01](images/wifi-connected.png)
 
-Now connect your laptop to `OpenEnergyMontor-Demo` and browse to your WiFi Pixels IP address. You should see the same config page.
+Now connect your laptop to `OpenEnergyMontor_Demo` and browse to your WiFi Pixels IP address. You should see the same config page.
 
 ### 2. Create account on Emoncms.org
 

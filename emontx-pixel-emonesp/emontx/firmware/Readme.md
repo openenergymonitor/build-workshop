@@ -59,20 +59,22 @@ You should see serial output of:
 
 AC-AC voltage sensor adapter and clip-on CT must plugged into the emonTx.
 
-##### AC-AC Adapter
-
-The AC-AC adapter provides the emonTx with a AC voltage signal sample. This allows the emonTx to monitor VRMS, calculate Real Power and determine direction of current flow. See docs in 'theory' folder for info on how this works.
-
-*Note: The AC-AC voltage sensor adapter does NOT provide power to the emonTx. A separate USB 5V power supply is required. The [emonTx V3](https://https://shop.openenergymonitor.com/emontx-v3-electricity-monitoring-transmitter-unit-433mhz/) can be powered directly from the AC-AC adapter since the emonTx V3 includes a [half-wave rectifier power supply circuit](http://blog.openenergymonitor.org/2012/05/emontx-single-ac-power-supply/)*
-
 ##### Clip on CT current sensor
 
 The clip on CT current sensor must be clipped round either the 'live' or 'neutral' cable, NOT both!
 
 ![ct-install](images/CT-on-cable.jpg)
 
+*A current transformer is similar to the more common voltage transformer that we are all familiar with. It has an iron or ferrite core and two windings. But unlike the voltage transformer, it comes with only one winding, on the secondary side. You supply the primary winding in the form of the cable that passes through the transformer core. And, as the name suggests, it works on currents, not voltages. Therefore it will generate an output current flowing in the secondary winding that is proportional to the current in the cable that is the primary winding. A burden resistor in parallel to the CT secondary is used to convert the current signal to a voltage wavefrom we can then sample using the microcontroller analoge input*
 
-See theory folder for information about how CT sensor work.
+See theory folder for more information about how CT sensor work.
+
+##### AC-AC Adapter
+
+The AC-AC adapter provides the emonTx with a AC voltage signal sample. This allows the emonTx to monitor VRMS, calculate Real Power and determine direction of current flow. See docs in 'theory' folder for info on how this works.
+
+*Note: The AC-AC voltage sensor adapter does NOT provide power to the emonTx. A separate USB 5V power supply is required. The [emonTx V3](https://https://shop.openenergymonitor.com/emontx-v3-electricity-monitoring-transmitter-unit-433mhz/) can be powered directly from the AC-AC adapter since the emonTx V3 includes a [half-wave rectifier power supply circuit](http://blog.openenergymonitor.org/2012/05/emontx-single-ac-power-supply/)*
+
 
 ##  Next > Connecting emonTx to WiFi Pixel
 
