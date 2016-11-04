@@ -110,21 +110,21 @@ Start with the resistors. Form a 90 degree bend in each leg of the resistor righ
 
 *Note: Unless specified component orientation does not matter*
 
-- 3 x 10uF electrolitic capacitors. **Orientation is important:** The PCB is marked with a (+) symbol to indicate the positive lead. The capacitors are marked with a white stripe and a short leg to indicate the negative lead and a longer leg to indicate the positive lead.
+- 3 x 10uF electrolytic capacitors. **Orientation is important:** The PCB is marked with a (+) symbol to indicate the positive lead. The capacitors are marked with a white stripe and a short leg to indicate the negative lead and a longer leg to indicate the positive lead.
 - Green LED:  **Orientation is important: long leg is positive (+)**
 - 16 Mhz Crystal
 - Mini-USB connector
 - 3.5mm Jack plug socket into CT1
 - MCP1702 voltage regulator (3.3V). **Orientation is important: see PCB outline**
 - AC-AC 2.1mm Barrel jack
-- DIL socker & ATmega328p microcontroller
+- DIL socket & ATmega328p microcontroller
 - 6 x UART pin header
 
-The RF module and CT 2-3 channel 2-3 components are not populated since they are not needesd.
+The RF module and CT 2-3 channel 2-3 components are not populated since they are not needed.
 
 ![09](images/build0010.jpg)
 
 
 ## Next > emonTx Upload Firmware
 
-See [emontx/firmware folder](firmware/Readme.md) for infomation about how to upload the Arduino compatiable firmware to the emonTx.
+See [emontx/firmware folder](firmware/Readme.md) for information about how to upload the Arduino compatible firmware to the emonTx.
