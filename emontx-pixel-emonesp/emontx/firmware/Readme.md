@@ -33,7 +33,9 @@ Connect emonTx via USB to UART cable:
 
 ![usb-uart](images/build014.jpg)
 
-*Note: The mini-USB socket cannot be used for programming, only to provide power to the unit*
+The USB to UART cable is plug-and-play on Linux / Mac, windows requires installing [drivers for the CP2101 USB to UART programmer](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx).
+
+*Note: The mini-USB socket on the emonTx cannot be used for programming, only to provide 5V USB power to the unit*
 
 Then run:
 
