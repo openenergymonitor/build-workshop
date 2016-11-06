@@ -87,6 +87,14 @@ Data received via serial from the emonTx should now be being posted to emoncms.o
 
 These inputs can be logged to Emoncms feeds. See [Emoncms user guide](http://guide.openenergymonitor.org/setup/local/) for how to log inputs to feeds, view graphs, create dashboards & configure Android / iOS app.
 
+![emoncms-graph](images/emoncms-graph.png)
+
+**Example Emoncms Dashboards**
+
+- [Example Live MyElectric dashboard](https://emoncms.org/app?readkey=c0c644bb3f86eab9e308668b5bef6b51#myelectric)
+- [Example live MySolarPV Dashboard](https://emoncms.org/app?readkey=871ad5efb8f20f698f12d751aea9b8a6#mysolarpv)
+- [Live custom dashboard example](http://vpn.linemanhut.co.uk:8080/emoncms/dashboard/view?id=1)
+
 *** 
 
 ## [< Return to main build workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
