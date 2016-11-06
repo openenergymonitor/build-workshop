@@ -86,3 +86,5 @@ Now paste in your Emoncms.org RW API key you copied earlier into the emoncms sec
 Data received via serial from the emonTx should now be being posted to emoncms.org via the Wifi Pixel. Log back into your emoncms.org account and navigate to the `Setup > Inputs` section. You should see ct1 and vrms data being updated.
 
 These inputs can be logged to Emoncms feeds. See [Emoncms user guide](http://guide.openenergymonitor.org/setup/local/) for how to log inputs to feeds, view graphs, create dashboards & configure Android / iOS app.
+
+# [Return to Build Workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
