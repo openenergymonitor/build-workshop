@@ -76,7 +76,7 @@ The AC-AC adapter provides the emonTx with a AC voltage signal sample. This allo
 *Note: The AC-AC voltage sensor adapter does NOT provide power to the emonTx. A separate USB 5V power supply is required. The [emonTx V3](https://https://shop.openenergymonitor.com/emontx-v3-electricity-monitoring-transmitter-unit-433mhz/) can be powered directly from the AC-AC adapter since the emonTx V3 includes a [half-wave rectifier power supply circuit](http://blog.openenergymonitor.org/2012/05/emontx-single-ac-power-supply/)*
 
 
-##  [Next > Connecting emonTx to WiFi Pixel](..pixel/)
+##  [Next > Connecting emonTx to WiFi Pixel](../../pixel/)
 
 See `pixel` folder.
 
