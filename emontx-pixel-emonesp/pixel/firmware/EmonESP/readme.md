@@ -35,7 +35,7 @@ On future boots EmonESP will automatically connect to this network.
 
 *Note on some networks it's possible to browse to the EmonESP using hostname [http://emonesp.local](http://emonesp.local), this seems to work on windows but not on Linux*
 
-**If re-connection fails (e.g. network cannot be found) the EmonESP will automatically revert back to WiFi AP mode after a short while to allow a new network to be re-configued if required. Re-connection to existing network will be attempted every 5min.**
+**If re-connection fails (e.g. network cannot be found) the EmonESP will automatically revert back to WiFi AP mode after a short while to allow a new network to be re-configured if required. Re-connection to existing network will be attempted every 5min.**
 
 E.g Connected to WiFi network with SSID `OpenEnergyMonitor` with local IP `10.0.1.93`:
 
@@ -71,7 +71,7 @@ EmonESP can post data to an MQTT server. Each data key:pair value will be publis
 
 ## 5. Admin (Authentication)
 
-HTTP Authentication (highly recomended) can be enabled by saving admin config by default username and password
+HTTP Authentication (highly recommended) can be enabled by saving admin config by default username and password
 
 **HTTP authentication is required for all HTTP requests including input API**
 
@@ -172,7 +172,7 @@ The first time platformIO is ran the espressif arduino tool chain and all the re
 
 ##### b.) Upload data folder to the file system (html, CSS etc.) (SPIFFS):
 
-- Put ESP back into bootloder mode, see above
+- Put ESP back into bootloader mode, see above
 
 `$ pio run -t uploadfs`
 

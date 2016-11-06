@@ -2,9 +2,9 @@
 
 The emonTx firmware uses the C++ Arduino framework.
 
-## Compile & Upload Using PlatfomIO
+## Compile & Upload Using PlatformIO
 
-We will use [PlatformIO](https://platformio.org) to compile and upload the firmware. Arduino IDE can also be but PlatformIO is easier to setup since all required libraries and tool chains are automatically downloaded.
+We will use [PlatformIO](https://platformio.org) to compile and upload the firmware. [The Arduino IDE](https://www.arduino.cc/en/Main/Software) can also be but IMO PlatformIO is easier to setup since all required libraries and tool chains are automatically downloaded.
 
 #### Install platformIO
 
@@ -65,7 +65,7 @@ The clip on CT current sensor must be clipped round either the 'live' or 'neutra
 
 ![ct-install](images/CT-on-cable.jpg)
 
-*A current transformer is similar to the more common voltage transformer that we are all familiar with. It has an iron or ferrite core and two windings. But unlike the voltage transformer, it comes with only one winding, on the secondary side. You supply the primary winding in the form of the cable that passes through the transformer core. And, as the name suggests, it works on currents, not voltages. Therefore it will generate an output current flowing in the secondary winding that is proportional to the current in the cable that is the primary winding. A burden resistor in parallel to the CT secondary is used to convert the current signal to a voltage wavefrom we can then sample using the microcontroller analoge input*
+*A current transformer is similar to the more common voltage transformer that we are all familiar with. It has an iron or ferrite core and two windings. But unlike the voltage transformer, it comes with only one winding, on the secondary side. You supply the primary winding in the form of the cable that passes through the transformer core. And, as the name suggests, it works on currents, not voltages. Therefore it will generate an output current flowing in the secondary winding that is proportional to the current in the cable that is the primary winding. A burden resistor in parallel to the CT secondary is used to convert the current signal to a voltage waveform we can then sample using the microcontroller analog input*
 
 See theory folder for more information about how CT sensor work.
 
@@ -76,6 +76,14 @@ The AC-AC adapter provides the emonTx with a AC voltage signal sample. This allo
 *Note: The AC-AC voltage sensor adapter does NOT provide power to the emonTx. A separate USB 5V power supply is required. The [emonTx V3](https://https://shop.openenergymonitor.com/emontx-v3-electricity-monitoring-transmitter-unit-433mhz/) can be powered directly from the AC-AC adapter since the emonTx V3 includes a [half-wave rectifier power supply circuit](http://blog.openenergymonitor.org/2012/05/emontx-single-ac-power-supply/)*
 
 
-##  Next > Connecting emonTx to WiFi Pixel
+##  [Next > Connecting emonTx to WiFi Pixel](..pixel/)
 
-See 'pixel' folder.
+See `pixel` folder.
+
+*** 
+
+## [< Return to main build workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*

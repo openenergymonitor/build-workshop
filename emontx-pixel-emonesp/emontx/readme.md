@@ -1,12 +1,12 @@
 ## emonTx V1 Build Guide
 
-The emonTx is an energy monitoring unit based on the Arduino open-hardware microcontroller platform.
+The emonTx is an energy monitoring unit based on the Arduino open-hardware microcontroller platform. The emonTx requires soldering assembly. 
 
 - [emonTx Open-hardware design (github)](https://github.com/openenergymonitor/Hardware/tree/master/emonTxV2)
 
 ### Single CT no RF Build
 
-Adapted from [full emonTx V1 build guide](https://openenergymonitor.org/emon/emontx/make/assemble/buildguide22)
+This build guide is adapted from [full emonTx V1 build guide](https://openenergymonitor.org/emon/emontx/make/assemble/buildguide22)
 
 #### Component List
 
@@ -125,6 +125,13 @@ The RF module and CT 2-3 channel 2-3 components are not populated since they are
 ![09](images/build0010.jpg)
 
 
-## Next > emonTx Upload Firmware
+## [Next > emonTx Upload Firmware](firmware/)
 
-See [emontx/firmware folder](firmware/Readme.md) for information about how to upload the Arduino compatible firmware to the emonTx.
+
+*** 
+
+## [< Return to main build workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*

@@ -1,6 +1,6 @@
 # EmonESP Pixel
 
-The EmonESP Pixel is an ESP8266 WiFi enabled microcontroller with the addition of 16 neo-pixel GRB LED's.
+The EmonESP Pixel is an ESP8266 WiFi enabled microcontroller with the addition of 16 neo-pixel RGB LEDs.
 
 
 ## Features
@@ -87,4 +87,10 @@ Data received via serial from the emonTx should now be being posted to emoncms.o
 
 These inputs can be logged to Emoncms feeds. See [Emoncms user guide](http://guide.openenergymonitor.org/setup/local/) for how to log inputs to feeds, view graphs, create dashboards & configure Android / iOS app.
 
-# [Return to Build Workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
+*** 
+
+## [< Return to main build workshop Index](https://github.com/openenergymonitor/build-workshop/tree/master/emontx-pixel-emonesp)
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*
