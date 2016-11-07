@@ -72,3 +72,6 @@ then you must get professional advice. Even though the meter shown above was (pr
 
 (Exposed copper is visible on both the line and neutral conductors. Just because the worst is the neutral conductor is no excuse. If the neutral is damaged and broken anywhere on the supply side of this meter, that neutral then becomes live at the full mains voltage if anything is switched on downstream.)
 
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*

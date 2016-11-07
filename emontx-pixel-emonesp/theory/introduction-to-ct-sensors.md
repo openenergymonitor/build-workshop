@@ -79,3 +79,7 @@ A split-core CT, especially one that has a ferrite core (such as the ones made b
 [3] [CT and AC power adaptor installation and calibration theory](https://openenergymonitor.org/emon/buildingblocks/ct-and-ac-power-adaptor-installation-and-calibration-theory "CT and AC power adaptor installation and calibration theory")
 
 [4] [Current Transformer Installation](https://openenergymonitor.org/emon/Current_Transformer_Installation "Current Transformer Installation")
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*

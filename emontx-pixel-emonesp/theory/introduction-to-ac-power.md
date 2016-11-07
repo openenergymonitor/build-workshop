@@ -93,3 +93,7 @@ Power in resistive and reactive loads: [https://www.allaboutcircuits.com/vol_2/c
 Single phase power systems: [https://www.allaboutcircuits.com/vol_2/chpt_10/1.html](https://www.allaboutcircuits.com/vol_2/chpt_10/1.html)
 
 [Powerbox](https://instruct1.cit.cornell.edu/courses/ee476/FinalProjects/s2008/cj72_xg37/cj72_xg37/index.html)
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*

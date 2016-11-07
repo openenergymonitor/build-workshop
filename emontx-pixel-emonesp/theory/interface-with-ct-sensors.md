@@ -76,3 +76,7 @@ We use 10 kΩ resistors for mains powered monitors. The [emonTx](https://openene
 ### **Arduino sketch**
 
 To use the above circuit to measure RMS current, with an assumed fixed RMS voltage (e.g. 240V) to indicate approximate apparent power, use this Arduino sketch: [Arduino sketch - current only](https://openenergymonitor.org/emon/buildingblocks/arduino-sketch-current-only)
+
+***
+
+*Glyn Hudson | [OpenEnergyMonitor.org](https://openenergymonitor.org) | November 2016*
