@@ -1,11 +1,5 @@
 ## CT sensors - An introduction
 
-Often referred to as a current clamp, a CT is in fact, <u>_**not**_</u> a clamp.
-
-_These_ are Clamps. On the left are two busbar clamps, on the right, a carpenter's G-clamp:
-
-![](files/bbar_clamp.jpg)![](files/g_clamp.jpg)  
-_Note the tensioning screws._
 
 Pictured below, is an example of a Split-Core CT.
 
