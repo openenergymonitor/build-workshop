@@ -1,6 +1,6 @@
 # Energy Monitor Build Workshop
 
-The workshop will cover building a singe-phase AC energy monitor using the open-source Arduino and ESP8266 microcontroller platforms.
+The workshop will cover building a web-connected singe-phase AC energy monitor using the open-source Arduino, ESP8266 and Emoncms platforms.
 
 ## 1.emonTx Energy Monitor
 
