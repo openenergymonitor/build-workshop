@@ -7,10 +7,6 @@ Pictured below, is an example of a Split-Core CT.
 
 ![](files/current100a.jpg)
 
-Here's an example of a _Magnelab_ _**split-core**_ CT
-
-![](files/SCT-1250_CT.jpg)
-
 In addition to the split-core type, solid core, (aka _**ring core**_) CTs are available.  
 Here's an example of a _Magnelab **solid-core**_ CT  
 ![](files/solid_core_ct.jpg)
