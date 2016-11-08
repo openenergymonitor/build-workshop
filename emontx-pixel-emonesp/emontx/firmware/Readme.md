@@ -4,7 +4,7 @@ The emonTx firmware uses the C++ Arduino framework.
 
 ## Compile & Upload Using PlatformIO
 
-We will use [PlatformIO](https://platformio.org) to compile and upload the firmware. [The Arduino IDE](https://www.arduino.cc/en/Main/Software) can also be but IMO PlatformIO is easier to setup since all required libraries and tool chains are automatically downloaded.
+We will use [PlatformIO](https://platformio.org) to compile and upload the firmware. [The Arduino IDE](https://www.arduino.cc/en/Main/Software) can also be used but for this workshop PlatformIO is easier to setup since all required libraries and tool chains are automatically downloaded.
 
 #### Install platformIO
 
