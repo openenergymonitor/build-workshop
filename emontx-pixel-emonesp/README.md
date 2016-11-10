@@ -68,6 +68,7 @@ Payment can be made via our [web shop: order X number of ‘customized payment u
 
 **= 13 GBP** = 14.62 EUR 
 
+***
 
 **TOTAL = 46 GBP** = 51.82 EUR 
 
