@@ -48,23 +48,26 @@ Post data readings online to [Emoncms.org](https://emoncms.org) cloud  applicati
 ## Costs 
 
 ### Energy Monitor
-1 x emonTx
-1 x CT Sensor
-1 x AC-AC adapter
-1 x Mini USB cable
-1 x USB to UART programmer
+
+- 1 x emonTx
+- 1 x CT Sensor
+- 1 x AC-AC adapter
+- 1 x Mini USB cable
+- 1 x USB to UART programmer
+
 **= 33 GBP**
+
 = 37.11 EUR
 
-Payment can be made via our [web shop: order X number of ‘customized payment units’](http://shop.openenergymonitor.com/customized-order-payment-unit/
-
-
-) where X is the cost of the kit in GBP. 
+Payment can be made via our [web shop: order X number of ‘customized payment units’](http://shop.openenergymonitor.com/customized-order-payment-unit) where X is the cost of the kit in GBP. 
 
 
 ### Display & web connection 
-1 x WiFi Pixel (ESP8266)
+
+- 1 x WiFi Pixel (ESP8266)
+
 **= 13 GBP**
+
 = 14.62 EUR 
 
 
