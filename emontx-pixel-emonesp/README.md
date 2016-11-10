@@ -57,7 +57,7 @@ If you want to take the unit home to have a web connected energy monitor for you
 - 1 x Mini USB cable
 - 1 x USB to UART programmer
 
-**= 33 GBP** = 37.11 EUR
+**= 26 GBP** = 29.5 EUR (+VAT)
 
 Payment can be made via our [web shop: order X number of ‘customized payment units’](http://shop.openenergymonitor.com/customized-order-payment-unit) where X is the cost of the kit in GBP. 
 
@@ -66,11 +66,11 @@ Payment can be made via our [web shop: order X number of ‘customized payment u
 
 - 1 x WiFi Pixel (ESP8266)
 
-**= 13 GBP** = 14.62 EUR 
+**= 10 GBP** = 11.36 EUR (+VAT)
 
 ***
 
-**TOTAL = 46 GBP** = 51.82 EUR 
+**TOTAL = 36 GBP** = 40.10 EUR 
 
 
 
