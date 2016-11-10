@@ -47,6 +47,8 @@ Post data readings online to [Emoncms.org](https://emoncms.org) cloud  applicati
 
 ## Costs 
 
+If you want to take the unit home to have a web connected energy monitor for your home / flat: 
+
 ### Energy Monitor
 
 - 1 x emonTx
